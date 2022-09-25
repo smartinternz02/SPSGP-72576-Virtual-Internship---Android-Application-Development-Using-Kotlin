@@ -16,5 +16,7 @@ Android uses MVVM architecture to arrange project code and make it simpler to un
 # Room DataBase
 The data of apps, such as grocery item name, grocery item quantity, and grocery item price, are stored using the database management library known as Room Persistence Library. Room is a cover layer for SQLite that facilitates simple database operations.
 
-## RecyclerView
+# RecyclerView
 RecyclerView is a container that is used to show a collection of data in a sizable data set that can be scrolled efficiently by keeping the number of views to a minimum.
+## Adapter
+An adapter handles the data that goes inside a RecyclerView. It provides a binding from an app-specific data set to views displayed within RecyclerView.
